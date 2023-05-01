@@ -85,5 +85,5 @@ namespace ExerSemana08.Controllers
             _clienteServices.DeletarCliente(id);
             return Ok();
         }
-    } 
+    }
 }

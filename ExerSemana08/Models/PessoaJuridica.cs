@@ -20,13 +20,9 @@ namespace ExerSemana08.Models
             NomeFantasia = nomeFantasia;
             DataAbertura = dataAbertura;
         }
-         
         public override string ResumoCliente()
         {
-
             string resumo = $"{NumeroConta}  |  {RazaoSocial}  |  {CNPJ}  |  {NomeFantasia}";
-            
-                        
             return resumo;
         }
     }
